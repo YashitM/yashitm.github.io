@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.header-image {
+	border-radius: 45%;
+}
+
+.img-section {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	font-size: 50px;	
+	text-align: center;
+}
+
+.one {
+	background-image: url(../img/cropped.jpg);
+}
+
+.two {
+	background-image: url(../img/fixed-bg.jpg);
+}
+
+.three {
+	background-image: url(../img/background_top.jpg);
+}
+
+.small {
+	height: 70%;
+}
+
+.text-section-60 {
+	background-color: white;
+	height: 60%;
+	text-align: center;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;	
+}
+
+.text-section-100 {
+	background-color: white;
+	height: 100%;
+	text-align: center;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;	
+}
+
+.inside-text {
+	font-family: 'Rock Salt', cursive;
+	font-weight: bolder;
+}
