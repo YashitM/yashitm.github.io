@@ -9,13 +9,36 @@
 	<link rel="stylesheet" type="text/css" href="styles/hover-min.css">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Indie+Flower|Rock+Salt|Trirong|Quattrocento+Sans|Slabo+27px|Merriweather:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo:700" rel="stylesheet">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/navbarscroll.js"></script>
+	<script type="text/javascript" src="js/scrolldivs.js"></script>
+	<script type="text/javascript" src="js/highlightnavlink.js"></script>
 </head>
 <body>
+	<nav role="navigation" class="navbar navbar-default navbar-fixed-top navbar-color">
+	    <div class="navbar-header">
+	        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	        </button>
+	        <a href="#" class="navbar-brand nav-header-style"><span class="nav-span-style">Yashit Maheshwary</span></a>
+	    </div>
+	    <div id="navbarCollapse" class="collapse navbar-collapse">
+	        <ul class="nav navbar-nav navbar-right">
+	            <li><a id="HomeButton" class="nav-header-style" href="#"><span class="nav-span-style">Home</span></a></li>
+	            <li><a id="AboutButton" class="nav-header-style" href="#"><span class="nav-span-style">About</span></a></li>
+	            <li><a id="ProjectsButton" class="nav-header-style" href="#"><span class="nav-span-style">Projects</span></a></li>
+	        	<li><a id="ContactButton" class="nav-header-style" href="#"><span class="nav-span-style">Contact</span></a></li>
+	        </ul>
+	    </div>
+	</nav>
 	<div class="img-section fadeIn animated one">
 		<div class="inside-text fadeIn animated">
 			<span class="inside-text-1">YASHIT MAHESHWARY</span><br>
 			<div>
-				<a class="hvr-wobble-vertical social-icons" href="https://www.facebook.com/yashit.maheshwary" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a class="hvr-wobble-vertical social-icons" href="https://www.facebook.com/yashit.maheshwary" target="_blank"> <i class="fa fa-facebook"></i></a>
 				<a class="hvr-wobble-vertical social-icons" href="https://www.quora.com/profile/Yashit-Maheshwary" target="_blank"><i class="fa fa-quora"></i></a>
 				<a class="hvr-wobble-vertical social-icons" href="https://www.linkedin.com/in/yashit-maheshwary-aa8078b2" target="_blank"><i class="fa fa-linkedin"></i></a>
 				<a class="hvr-wobble-vertical social-icons" href="https://github.com/YashitM" target="_blank"><i class="fa fa-github"></i></a>
@@ -25,21 +48,17 @@
 			Student|Programmer
 		</div>-->
 	</div>	
-	<div class="text-section-60">
-		Hi, I am Yashit Maheshwary, a first year CSE student at IIIT, Delhi. I am passionate about Web App Development. I have a professional working proficiency in HTML, CSS, Python, MYSQL and C++. I also have an elementary proficiency in PHP, Javascript and Java.
+	<div class="text-section-60" id="AboutSection">
+		Hi, I am Yashit Maheshwary, a first year CSE student at IIIT, Delhi. I am passionate about Web App Development. I have a professional working proficiency in HTML, CSS, Python, MYSQL, C++ and Embedded C. I also have an elementary proficiency in PHP, Javascript and Java.
 	</div>
-	<div class="img-section two">
-		This is some text in the center of the image
+	<div class="img-section two" id="ProjectsSection">
+		Projects
 	</div>	
-	<div class="text-section-100">
-		Hi, I am Yashit Maheshwary, a first year CSE student at IIIT, Delhi. I am passionate about Web App Development. I have a professional working proficiency in HTML, CSS, Python, MYSQL and C++. I also have an elementary proficiency in PHP, Javascript and Java.
+	<div class="text-section-100" id="ContactSection">
+		Contact
 	</div>
-
 	<div class="img-section three">
-		This is some text in the center of the image
-	</div>	
-	<div class="img-section small">
-		This is some text in the center of the image
+		Footer
 	</div>	
 </body>
 </html>				
