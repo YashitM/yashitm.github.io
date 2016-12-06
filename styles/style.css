@@ -62,9 +62,8 @@ html, body {
 }
 
 .inside-text {
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Exo', sans-serif;
 	color: #f2f2f2;
-	font-weight: 900;
 	position: absolute;
 	top: 50%;
     left: 50%;
@@ -72,10 +71,14 @@ html, body {
     margin-bottom: -20px;
 }
 
+.inside-text-1 {
+	transition: all 0.3s ease-in-out;
+}
+
 .inside-text-2 {
-	font-family: 'Slabo 27px', sans-serif;
+	font-family: 'Trirong', sans-serif;
 	color: #f2f2f2;
-	font-weight: bold;
+	font-weight: 800;
 	font-size: 25px;
 }
 
