@@ -76,6 +76,24 @@ html, body {
 	height: 70%;
 }
 
+.text-section-enclosure-100-1 {
+	height: 100%;
+	background-color: #217dbb;
+	z-index: -1;
+}
+
+.text-section-enclosure-70-1 {
+	height: 70%;
+	background-color: #666666;
+	z-index: -1;
+}
+
+.text-section-enclosure-70-2 {
+	height: 70%;
+	background-color: #666666;
+	z-index: -1;
+}
+
 .text-section-70 {
 	height: 70%;
 	text-align: center;
@@ -117,7 +135,6 @@ html, body {
 }
 
 .text-section-100 {
-	background-color: white;
 	height: 100%;
 	text-align: center;
 	font-size: 30px;
@@ -151,8 +168,6 @@ html, body {
     margin-bottom: -20px;
 }
 
-
-
 .inside-text-1 {
 	transition: all 0.3s ease-in-out;
 }
@@ -160,6 +175,13 @@ html, body {
 .inside-text-1:hover{
 	color: #666694;
 	text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+}
+
+.over-the-image-text {
+	font-family: 'Exo', sans-serif;
+	color: #f2f2f2;
+	font-size: 56px;
+	text-align: center;
 }
 
 #facebook-icon:hover {
