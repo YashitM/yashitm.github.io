@@ -48,6 +48,16 @@ html, body {
 	text-align: center;
 }
 
+.img-section-3 {
+	height: 50%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	font-size: 50px;	
+	text-align: center;
+}
+
 .one {
 	background-image: url(../img/bg-dark-blurred.jpg);
 	/*background image taken from: https://s-media-cache-ak0.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg*/
@@ -58,7 +68,8 @@ html, body {
 }
 
 .three {
-	background-image: url(../img/background_top.jpg);
+	background-image: url(../img/contact-image-blurred.jpg);
+	/*source: http://www.gearthblog.com/wp-content/uploads/2015/06/Imagery-Updates-Large-May-27th-2015.jpg */
 }
 
 .small {
@@ -74,6 +85,28 @@ html, body {
 	margin-right: auto;
 	text-align: justify;	
 }
+
+.text-section-20 {
+	height: 20%;
+	text-align: center;
+	font-size: 30px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;	
+	background-color: #222;
+}
+
+.section-20 {
+	height: 15%;
+	bottom:0;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	background-color: #222;
+}
+
+
 
 .section-heading {
 	text-align: center;
@@ -268,6 +301,25 @@ html, body {
  	animation-iteration-count:1;
  }
 
+.hvr-bounce-in {
+ 	display:inline-block;
+ 	vertical-align:middle;
+    -webkit-transform:perspective(1px) translateZ(0);
+	transform:perspective(1px) translateZ(0);
+	box-shadow:0 0 1px transparent;
+	-webkit-transition-duration:.5s;
+	transition-duration:.5s
+	-webkit-animation-iteration-count:1;
+ 	animation-iteration-count:1;
+}
+
+.hvr-bounce-in:active,.hvr-bounce-in:focus,.hvr-bounce-in:hover {
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+	-webkit-transition-timing-function:cubic-bezier(0.47,2.02,.31,-.36);
+	transition-timing-function:cubic-bezier(0.47,2.02,.31,-.36)
+}
+
 button {
   	position: relative;
   	height: 45px;
@@ -329,3 +381,24 @@ button {
   	opacity:0;
 }
 
+.footer-text {
+	color: #fff;
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+}
+
+.footer-icon {
+	color: red;
+	transition: all 0.4s ease-in-out;
+}
+
+footer {
+	height: 10%;
+	background-color: #222;	
+	bottom: 0;
+}
+
+.footer-name, .footer-extra-shit {
+	font-size: 30px;
+	padding-top: 15px;
+}
