@@ -38,13 +38,23 @@ html, body {
 	text-align: center;
 }
 
+.img-section-2 {
+	height: 55%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	font-size: 50px;	
+	text-align: center;
+}
+
 .one {
 	background-image: url(../img/bg-dark-blurred.jpg);
 	/*background image taken from: https://s-media-cache-ak0.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg*/
 }
 
 .two {
-	background-image: url(../img/bg-dark-blurred.jpg);
+	background-image: url(../img/projects-background-blurred.png);
 }
 
 .three {
@@ -55,16 +65,22 @@ html, body {
 	height: 70%;
 }
 
-.text-section-60 {
-	height: 60%;
+.text-section-70 {
+	height: 70%;
 	text-align: center;
 	font-size: 30px;
-	display: flex;
-	align-items: center;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;	
+}
+
+.section-heading {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 900;
 }
 
 .text-section-100 {
@@ -83,11 +99,13 @@ html, body {
 .description {
 	font-size: 25px;
 	font-weight: 0;
+	letter-spacing: 0.5px;
 	transition: all 0.3s ease-in-out;
 }
 
 .description:hover {
 	color: #666694;
+	text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
 }
 
 .inside-text {
@@ -100,28 +118,35 @@ html, body {
     margin-bottom: -20px;
 }
 
+
+
 .inside-text-1 {
 	transition: all 0.3s ease-in-out;
 }
 
 .inside-text-1:hover{
 	color: #666694;
+	text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
 }
 
 #facebook-icon:hover {
 	color: #3b5998;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 #quora-icon:hover {
 	color: #a62100;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 #linkedin-icon:hover {
 	color: #0077b5;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 #github-icon:hover {
 	color: #000000;
+	text-shadow: 0px 0px 7px rgba(255, 255, 255, 1);
 }
 
 .inside-text-2 {
@@ -303,3 +328,4 @@ button {
   	left:100%;
   	opacity:0;
 }
+
