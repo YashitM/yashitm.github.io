@@ -97,7 +97,7 @@ html, body {
 .text-section-enclosure-60-1 {
 	height: 60%;
 	//background-color: #4d97c8;
-	background-color: #c9c9c9;
+	background-color: #217dbb;
 	z-index: -1;
 	color: black;
 	display: flex;
@@ -106,7 +106,7 @@ html, body {
 
 .text-section-enclosure-70-2 {
 	height: 70%;
-	background-color: #555555;
+	background-color: #217dbb;
 	z-index: -1;
 	display: flex;
 	align-items: center;
@@ -484,4 +484,62 @@ footer {
 .offset {
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+.modal-content {
+	background-color: #3a3a3a;
+	color: #fff;
+}
+
+.modal-body-text {
+	font-family: 'Trirong', serif;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.modal-text-heading {
+	font-weight: bold;
+	font-size: 20px;
+	color: #939393;
+	transition: all 0.3s ease-in-out;
+}
+
+.modal-text-heading:hover {
+	color: #fff;
+}
+
+.modal-links {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.modal-links:hover {
+	color: VIOLET;
+	text-decoration: none;
+}
+
+.bottom-links {
+	margin-top: 125px;
+	margin-bottom: -10px;
+}
+
+.btn-color {
+	background-color: #3a3a3a;
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+}
+
+.btn-color:hover {
+	background-color: #888888;
+	color: #222
+}
+
+.close-color {
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+}
+
+.close-color:hover {
+	color: #fff;
 }

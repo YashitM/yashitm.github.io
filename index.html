@@ -15,6 +15,7 @@
 	<script type="text/javascript" src="js/navbarscroll.js"></script>
 	<script type="text/javascript" src="js/scrolldivs.js"></script>
 	<script type="text/javascript" src="js/highlightnavlink.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body oncontextmenu="return false;">
 	<nav role="navigation" class="navbar navbar-default navbar-fixed-top navbar-color">
@@ -78,31 +79,202 @@
 			<div class="container-fluid">
 				<div class="row offset">
 					<div class="col-lg-6">
-						<button class="speech-recognition left project-button">&nbsp;</button>
+						<button type="button" class="speech-recognition left project-button" data-toggle="modal" data-target="#myModal">&nbsp;</button>
 					</div>
 					<div class="col-lg-6">
-						<button class="pollution-sensor left project-button">&nbsp;</button>
-					</div>
-				</div>
-				<div class="row offset">
-					<div class="col-lg-6">
-						<button class="tictactoe left project-button">&nbsp;</button>
-					</div>
-					<div class="col-lg-6">
-						<button class="jee-spot left project-button">&nbsp;</button>
+						<button type="button"  class="pollution-sensor left project-button" data-toggle="modal" data-target="#myModal3">&nbsp;</button>
 					</div>
 				</div>
 				<div class="row offset">
 					<div class="col-lg-6">
-						<button class="snake left project-button">&nbsp;</button>
+						<button type="button" class="tictactoe left project-button" data-toggle="modal" data-target="#myModal4">&nbsp;</button>
 					</div>
 					<div class="col-lg-6">
-						<button class="lbms left project-button">&nbsp;</button>
+						<button type="button" class="jee-spot left project-button" data-toggle="modal" data-target="#myModal1">&nbsp;</button>
+					</div>
+				</div>
+				<div class="row offset">
+					<div class="col-lg-6">
+						<button type="button" class="snake left project-button" data-toggle="modal" data-target="#myModal2">&nbsp;</button>
+					</div>
+					<div class="col-lg-6">
+						<button type="button" class="lbms left project-button" data-toggle="modal" data-target="#myModal5">&nbsp;</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!-- container for the project modals-->
+
+    <div class="container-fluid">
+    	<div class="modal fade" id="myModal" role="dialog">
+		    <div class="modal-dialog">
+		      	<!-- Modal content-->
+		      	<div class="modal-content">
+		        	<div class="modal-header">
+		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
+		          		<h4 class="modal-title">Speech Recognition using Arduino</h4>
+		        	</div>
+		        	<div class="modal-body">
+		          		<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">Equipment used:</span> Arduino UNO R3, HC-05 Bluetooth Module, an Android Phone with AMR-Voice App installed, LCD Display, Jumper Cables etc.
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Language(s) used:</span> Embedded C
+		          		</p>
+		          		<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">About:</span> This device displays the answer to various mathematical expressions the user says. The user gives the voice input to the Android App (AMR-Voice) and then this app forwards the data to the Bluetooth Module attached to the arduino. The Arduino then processes the data and then displays the final output onto the LCD Display attached to it.
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/Arduino-Speech-Recog" target="_blank"> Github Repository</a>
+		          		</p>
+		        	</div>
+		        	<div class="modal-footer">
+		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
+		        	</div>
+		      	</div>
+  			</div>
+		</div>
+		<div class="modal fade" id="myModal1" role="dialog">
+		    <div class="modal-dialog">
+		      	<!-- Modal content-->
+		      	<div class="modal-content">
+		        	<div class="modal-header">
+		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
+		          		<h4 class="modal-title">JEE-Spot (Interactive online Study Website)</h4>
+		        	</div>
+		        	<div class="modal-body">
+		          		<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">Language(s) used:</span> HTML, CSS and a little bit of PHP
+		          		</p>
+		          		<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">About:</span> JEE-Spot is an online tutoring site with resources for exams like IIT-JEE (Mains and Advanced), BITSAT, CBSE 12<sup>th</sup> Board Exams and SAT Subject Tests. This website provides the user with Previous Years' Question Papers and Revision Notes for various topics that are needed to be covered for Entrance Examinations. 
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/JEE-Spot" target="_blank"> Github Repository</a>, <a class="modal-links" href="https://yashitm.github.io/JEE-Spot/" target="_blank"> Website Link</a>
+		          		</p>
+		        	</div>
+		        	<div class="modal-footer">
+		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
+		        	</div>
+		      	</div>
+  			</div>
+		</div>
+		<div class="modal fade" id="myModal2" role="dialog">
+		    <div class="modal-dialog">
+		      	<!-- Modal content-->
+		      	<div class="modal-content">
+		        	<div class="modal-header">
+		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
+		          		<h4 class="modal-title">The Retro Snake Game</h4>
+		        	</div>
+		        	<div class="modal-body">
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Language(s) used:</span> C++
+		          		</p>
+						<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">About:</span> This is a very basic B&amp;W Snake Game. The snake can be moved using the W, A, S and D keys. It's size increases whenever the head comes in contact with a fruit that is randomly placed in the frame. It has 3 levels of difficulty (that vary according to the speed of movement of the snake).
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/Snake-Game" target="_blank"> Github Repository</a>
+		          		</p>	
+		        	</div>
+		        	<div class="modal-footer">
+		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
+		        	</div>
+		      	</div>
+  			</div>
+		</div>
+		<div class="modal fade" id="myModal3" role="dialog">
+		    <div class="modal-dialog">
+		      	<!-- Modal content-->
+		      	<div class="modal-content">
+		        	<div class="modal-header">
+		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
+		          		<h4 class="modal-title">Pollution Sensing using Arduino</h4>
+		        	</div>
+		        	<div class="modal-body">
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Equipment used:</span> Arduino UNO R3, MQ-135 Gas Sensor, Sharp Dust Sensor, RGB-LED, Jumper Cables etc.
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Language(s) used:</span> Embedded C
+		          		</p>
+		          		<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">About:</span> This device measures the amount of Gas (Carbon Monoxide) and Dust in the surroundings and visualizes data (with the help of the RGB-LED) with respected to the Government set Pollution Standards. 
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/Arduino_Pollution_Sensor" target="_blank"> Github Repository</a>
+		          		</p>	
+		        	</div>
+		        	<div class="modal-footer">
+		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
+		        	</div>
+		      	</div>
+  			</div>
+		</div>
+		<div class="modal fade" id="myModal4" role="dialog">
+		    <div class="modal-dialog">
+		      	<!-- Modal content-->
+		      	<div class="modal-content">
+		        	<div class="modal-header">
+		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
+		          		<h4 class="modal-title">Tic Tac Toe</h4>
+		        	</div>
+		        	<div class="modal-body">
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Language(s) used:</span> Python
+		          		</p>
+		          		<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">About:</span> This is a normal Tic Tac Toe game that has almost 90% chances of beating (or drawing with) a human player. It runs on basic if-else conditions that evaluate the best move. Soon, I will be replacing the if-else conditions with the MiniMax Algorithm for 0% chances of losing against a human player. 
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/TicTacToe" target="_blank"> Github Repository</a>
+		          		</p>
+		        	</div>	
+		        	<div class="modal-footer">
+		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
+		        	</div>
+		      	</div>
+  			</div>
+		</div>
+		<div class="modal fade" id="myModal5" role="dialog">
+		    <div class="modal-dialog">
+		      	<!-- Modal content-->
+		      	<div class="modal-content">
+		        	<div class="modal-header">
+		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
+		          		<h4 class="modal-title">Library Management System</h4>
+		        	</div>
+		        	<div class="modal-body">
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Languages used:</span> C++
+		          		</p>
+		          		<p class="modal-body-text" align="justify">
+		          			<span class="modal-text-heading">About:</span> A handy and interactive Library Management System with features of storing, adding and deleting various users. Along with users, new books can be added, lost books can be deleted and books can be borrowed by any of the users (depending on the availability of books). The borrowed book, if not returned within a specified period of time, will result in a fine (depending on the number of days by which the user is late to return the book by) that the user will have to pay.
+		          		</p>
+		          		<p class="modal-body-text">
+		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/LBMS" target="_blank"> Github Repository</a>
+		          		</p>
+		        	</div>
+		        	<div class="modal-footer">
+		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
+		        	</div>
+		      	</div>
+  			</div>
+		</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
 	<div class="img-section-2 three" id="ContactSection">
 		<span class="over-the-image-text">Contact Details</span>
 	</div>	
