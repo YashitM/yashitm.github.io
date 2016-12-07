@@ -29,4 +29,10 @@ $(document).ready(function (){
         }, 1000);    
         return false;           
     });
+  $("#HomeButton2").click(function(){                
+         $('html, body').animate({
+              scrollTop: 0
+        }, 1000);    
+        return false;           
+    });
 });

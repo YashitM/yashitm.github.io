@@ -1,0 +1,182 @@
+.non-project-button {
+  	position: relative;
+  	height: 45px;
+  	width: 140px;
+  	font-size: 15px;
+  	color: #fff;	
+  	border: 0px #fff solid;
+  	border-radius: 6px;
+  	outline: 0;
+  	background: none;
+  	letter-spacing: 1px;
+  	transition: 0.1s ease-in-out;
+    -webkit-transition: 0.1s ease-in-out;
+}
+
+.anim:after{
+    font-family: FontAwesome;
+    content: "\f103";
+    -webkit-animation-name:hvr-wobble-vertical;
+  animation-name:hvr-wobble-vertical;
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-timing-function:ease-in-out;
+  animation-timing-function:ease-in-out;
+  -webkit-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
+    font-size: 25px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 9%;
+    left: 0;
+    /*-webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); */
+    -webkit-transition: all 0.3s cubic-bezier(.93,.08,.51,1.09); 
+}
+
+.anim:before {
+    content:"ABOUT ME";
+    height:100%;
+    width:100%;
+    opacity: 0;
+    position:absolute;
+    left: -100%;
+    /*-webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); */
+    -webkit-transition: all 0.3s cubic-bezier(.93,.08,.51,1.09); 
+}
+
+.anim:hover{
+    border: 3px #fff solid;
+}
+
+.anim:hover:before{
+  left:0;
+  opacity:1;
+  color:#fff;
+}
+.anim:hover:after{
+    left:100%;
+    opacity:0;
+}
+
+
+
+/*----- PROJECTS SECTION -------*/
+
+.project-button {
+  position: relative;
+  height: 85px;
+  width: 400px;
+  font-family: 'Exo';
+  font-size: 45px;
+  letter-spacing: 1px;
+  color: #000;
+  border: 3px #000 solid;
+  border-radius: 6px;
+  overflow:hidden;
+  background: none;
+  -webkit-transition: 0.1s ease-in-out;
+}
+
+
+.tictactoe:after{
+  content:"TicTacToe";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  text-align:center;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610); 
+}
+
+.jee-spot:after{
+  content:"JEE-Spot";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  text-align:center;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610); 
+}
+
+.pollution-sensor:after{
+  content:"Pollution Sensor";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  text-align:center;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610); 
+}
+
+.speech-recognition:after{
+  content:"Speech Recog.";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  text-align:center;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610); 
+}
+
+.snake:after{
+  content:"Snake Game";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  text-align:center;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610); 
+}
+
+.lbms:after{
+  content:"L.B.M.S.";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  text-align:center;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610); 
+}
+
+.tictactoe:before, .jee-spot:before, .pollution-sensor:before, .speech-recognition:before, .snake:before, .lbms:before {
+  content:"Know More";
+  height:100%;
+  width:100%;
+  position:absolute;
+  color:#000;
+  left:-100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610);
+}
+
+.tictactoe:hover, .jee-spot:hover, .pollution-sensor:hover, .speech-recognition:hover, .snake:hover, .lbms:hover {
+  background:#000;
+}
+
+.tictactoe:hover:before, .jee-spot:hover:before, .pollution-sensor:hover:before, .speech-recognition:hover:before, .snake:hover:before, .lbms:hover:before {
+  left:0;
+  opacity:1;
+  color:#fff;
+}
+
+.tictactoe:hover:after, .jee-spot:hover:after, .pollution-sensor:hover:after, .speech-recognition:hover:after, .snake:hover:after, .lbms:hover:after {
+  left:100%;
+  opacity:0;
+}
+
+.tictactoe.left:hover, .jee-spot.left:hover, .pollution-sensor:hover, .speech-recognition:hover, .snake:hover, .lbms:hover {
+  background:none;
+}
+
+.tictactoe.left:before, .jee-spot.left:before, .pollution-sensor:before, .speech-recognition:before, .snake:before, .lbms:before {
+  left:100%;
+  color:#d1cfcf;
+  -webkit-transition: all 0.4s cubic-bezier(0.710, -0.420, 0.325, 1.610); 
+}
+
+.tictactoe.left:hover:before, .jee-spot.left:hover:before, .pollution-sensor:hover:before, .speech-recognition:hover:before, .snake:hover:before, .lbms:hover:before {
+  left:0;
+}
+
+
