@@ -39,7 +39,7 @@ html, body {
 }
 
 .img-section-2 {
-	height: 55%;
+	height: 57%;
 	width: 100%;
 	text-align: center;
 	background-size: cover;
@@ -48,17 +48,6 @@ html, body {
 	font-size: 50px;	
 	display: flex;
   	align-items: center;
-}
-
-.img-section-3 {
-	height: 50%;
-	width: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-	padding: 0;
-	font-size: 50px;	
-	display: flex;
-	align-items: center;
 }
 
 .one {
@@ -71,7 +60,7 @@ html, body {
 }
 
 .three {
-	background-image: url(../img/contact-image-blurred.jpg);
+	background-image: url(../img/contact-us-blurred.jpg);
 	/*source: http://www.gearthblog.com/wp-content/uploads/2015/06/Imagery-Updates-Large-May-27th-2015.jpg */
 }
 
@@ -89,12 +78,28 @@ html, body {
 	height: 70%;
 	background-color: #fff;
 	z-index: -1;
+	display: flex;
+	align-items: center;
+}
+
+.margin-for-columns {
+	padding: 7px;	
+}
+
+.text-section-enclosure-60-1 {
+	height: 60%;
+	background-color: #fff;
+	z-index: -1;
+	display: flex;
+	align-items: center;
 }
 
 .text-section-enclosure-70-2 {
 	height: 70%;
 	background-color: #666666;
 	z-index: -1;
+	display: flex;
+	align-items: center;
 }
 
 .text-section-70 {
@@ -104,7 +109,21 @@ html, body {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: justify;	
+	text-align: justify;
+	display: flex;
+	align-items: center;	
+}
+
+.text-section-60 {
+	height: 60%;
+	text-align: center;
+	font-size: 30px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	display: flex;
+	align-items: center;	
 }
 
 .text-section-20 {
@@ -135,7 +154,7 @@ html, body {
 	font-weight: 900;	
 }
 
-.about-image-actual {
+.about-image {
 	border: 3px #000 solid;
 	-webkit-box-shadow: 0px 1px 45px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 45px -3px rgba(0,0,0,0.75);
@@ -143,13 +162,13 @@ html, body {
 	transition: all 0.3s ease-in-out;
 }
 
-.about-image-actual:hover {
-	transform: scale(1.1);
+.about-image:hover {
+	transform: scale(1.07);
 }
 
 .section-content {
 	font-family: 'Oxygen', sans-serif;
-	font-size: 30px;
+	font-size: 100%;
 	font-weight: bold;
 	margin-top: 20px;
 }
@@ -233,12 +252,38 @@ html, body {
 	font-size: 25px;
 }
 
-.my-img {
-	border: 10px solid transparent;
-	margin-left: auto;
-	margin-right: auto;
+.center-text {
+	text-align: center;
+	padding-bottom: 10px;
 }
 
+.contact-text {
+	display: flex;
+	align-items: center;
+}
+
+.contact-icons-enveloper {
+	font-size: 40px;
+}
+
+.contact-icons {
+	transition: all 0.3s ease-in-out;
+	color: #000;
+}
+
+.contact-icons:hover {
+	transform: scale(1.2);
+}
+
+.email-links {
+	text-decoration: none;
+	color: #222;	
+}
+
+.email-links:hover {
+	text-decoration: none;
+	color: #000;
+}
 
 .social-icons {
 	color: #9b9b9b;
@@ -251,8 +296,29 @@ html, body {
 	color: #fff;
 }
 
+.resume-link {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;	
+	transition: all 0.4s ease-in-out;
+}
+
+.resume-link:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.resume-link:visited {
+	color: #9b9b9b;
+}
+
+.resume-link:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
 ::selection {
-    background: #555;
+    background: #ff9999;
 }
 
 ::-webkit-scrollbar {
