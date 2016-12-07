@@ -77,6 +77,11 @@ html, body {
 	text-align: justify;	
 }
 
+.description {
+	font-size: 25px;
+	font-weight: 0;
+}
+
 .inside-text {
 	font-family: 'Exo', sans-serif;
 	color: #f2f2f2;
@@ -91,7 +96,7 @@ html, body {
 	transition: all 0.3s ease-in-out;
 }
 
-.inside-text-1:hover {
+.inside-text-1:hover{
 	color: #ffc1c1;
 }
 
@@ -108,8 +113,11 @@ html, body {
 	margin-right: auto;
 }
 
+
 .social-icons {
 	color: #9b9b9b;
+	font-size: 35px;
+	padding-left: 5px; 
 	transition: all 0.3s ease-in-out;
 }
 
@@ -135,4 +143,132 @@ html, body {
     -webkit-border-radius: 7px;
     border-radius: 7px;
     background:#555; 
+}
+
+
+@-webkit-keyframes hvr-wobble-vertical {
+ 	16.65% {
+ 		-webkit-transform:translateY(8px);
+ 		transform:translateY(8px);
+ 	}
+ 	33.3% {
+ 		-webkit-transform:translateY(-6px);
+ 		transform:translateY(-6px);
+ 	}
+ 	49.95% {
+ 		-webkit-transform:translateY(4px);
+ 		transform:translateY(4px);
+ 	}
+ 	66.6% {
+ 		-webkit-transform:translateY(-2px);
+ 		transform:translateY(-2px);
+ 	}
+ 	83.25% {
+ 		-webkit-transform:translateY(1px);
+ 		transform:translateY(1px);
+ 	}
+ 	100% {
+ 		-webkit-transform:translateY(0);
+ 		transform:translateY(0);
+ 	}
+ }
+
+@keyframes hvr-wobble-vertical {
+ 	16.65% {
+ 		-webkit-transform:translateY(8px);
+ 		transform:translateY(8px);
+ 	}
+ 	33.3% {
+ 		-webkit-transform:translateY(-6px);
+ 		transform:translateY(-6px);
+ 	}
+ 	49.95% {
+ 		-webkit-transform:translateY(4px);
+ 		transform:translateY(4px);
+ 	}
+ 	66.6% {
+ 		-webkit-transform:translateY(-2px);
+ 		transform:translateY(-2px);
+ 	}
+ 	83.25% {
+ 		-webkit-transform:translateY(1px);
+ 		transform:translateY(1px);
+ 	}
+ 	100% {
+ 		-webkit-transform:translateY(0);
+ 		transform:translateY(0);
+ 	}
+ }
+
+.hvr-wobble-vertical {
+ 	display:inline-block;
+ 	vertical-align:middle;
+ 	-webkit-transform:perspective(1px) translateZ(0);
+ 	transform:perspective(1px) translateZ(0);
+ 	box-shadow:0 0 1px transparent;
+ }
+
+.hvr-wobble-vertical:active,.hvr-wobble-vertical:focus,.hvr-wobble-vertical:hover {
+ 	-webkit-animation-name:hvr-wobble-vertical;
+ 	animation-name:hvr-wobble-vertical;
+ 	-webkit-animation-duration:1s;
+ 	animation-duration:1s;
+ 	-webkit-animation-timing-function:ease-in-out;
+ 	animation-timing-function:ease-in-out;
+ 	-webkit-animation-iteration-count:1;
+ 	animation-iteration-count:1;
+ }
+
+ button {
+  position: relative;
+  height: 45px;
+  width: 140px;
+  font-size: 15px;
+  color: #fff;	
+  border: 0px #fff solid;
+  border-radius: 6px;
+  outline: 0;
+  background: none;
+  letter-spacing: 1px;
+  transition: 0.1s ease-in-out;
+  -webkit-transition: 0.1s ease-in-out;
+}
+
+.anim:after{
+  font-family: FontAwesome;
+  content: "\f103";
+  font-size: 25px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top: 9%;
+  left: 0;
+  /*-webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); */
+  -webkit-transition: all 0.3s cubic-bezier(.93,.08,.51,1.09); 
+  
+}
+
+.anim:before {
+  content:"ABOUT ME";
+  height:100%;
+  width:100%;
+  opacity: 0;
+  position:absolute;
+  left: -100%;
+  /*-webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); */
+  -webkit-transition: all 0.3s cubic-bezier(.93,.08,.51,1.09); 
+}
+
+.anim:hover{
+   border: 3px #fff solid;
+}
+
+.anim:hover:before{
+  left:0;
+  opacity:1;
+  color:#fff;
+}
+.anim:hover:after{
+  left:100%;
+  opacity:0;
 }

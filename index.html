@@ -6,7 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/animate.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="styles/hover-min.css">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Indie+Flower|Rock+Salt|Trirong|Quattrocento+Sans|Slabo+27px|Merriweather:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo:700" rel="stylesheet">	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -14,7 +13,7 @@
 	<script type="text/javascript" src="js/scrolldivs.js"></script>
 	<script type="text/javascript" src="js/highlightnavlink.js"></script>
 </head>
-<body>
+<body oncontextmenu="return false;">
 	<nav role="navigation" class="navbar navbar-default navbar-fixed-top navbar-color">
 	    <div class="navbar-header">
 	        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -34,19 +33,20 @@
 	        </ul>
 	    </div>
 	</nav>
-	<div class="img-section fadeIn animated one">
+	<div class="img-section fadeIn animated one" id="firstdiv">
 		<div class="inside-text fadeIn animated">
 			<span class="inside-text-1">YASHIT MAHESHWARY</span><br>
+			<div class="description">
+				Student | Programmer 
+			</div>
 			<div>
 				<a class="hvr-wobble-vertical social-icons" href="https://www.facebook.com/yashit.maheshwary" target="_blank"> <i class="fa fa-facebook"></i></a>
 				<a class="hvr-wobble-vertical social-icons" href="https://www.quora.com/profile/Yashit-Maheshwary" target="_blank"><i class="fa fa-quora"></i></a>
 				<a class="hvr-wobble-vertical social-icons" href="https://www.linkedin.com/in/yashit-maheshwary-aa8078b2" target="_blank"><i class="fa fa-linkedin"></i></a>
 				<a class="hvr-wobble-vertical social-icons" href="https://github.com/YashitM" target="_blank"><i class="fa fa-github"></i></a>
 			</div>
+			<button class="anim" id="LearnMoreButton">&nbsp;</button>
 		</div>
-		<!--<div class="inside-text-2 zoomIn animated">
-			Student|Programmer
-		</div>-->
 	</div>	
 	<div class="text-section-60" id="AboutSection">
 		Hi, I am Yashit Maheshwary, a first year CSE student at IIIT, Delhi. I am passionate about Web App Development. I have a professional working proficiency in HTML, CSS, Python, MYSQL, C++ and Embedded C. I also have an elementary proficiency in PHP, Javascript and Java.
