@@ -5,6 +5,19 @@ html, body {
 	margin: 0;
 }
 
+/*This is for not letting the modal shift the contents and change the scrollbar*/
+
+body {
+    padding-right:0px !important;
+    margin-right:0px !important;
+}
+
+body.modal-open {
+    overflow: auto;
+}
+
+/*end*/
+
 .navbar-color {
 	background-color: rgba(8,14,50,1);
 	padding-right: 15px;
@@ -282,6 +295,7 @@ html, body {
 	text-align: center;
 	padding-bottom: 15px;
 	color: #000;
+	font-family: 'Lato';
 }
 
 .contact-text {
@@ -482,8 +496,8 @@ footer {
 }
 
 .offset {
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .modal-content {
