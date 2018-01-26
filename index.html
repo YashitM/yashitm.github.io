@@ -1,317 +1,461 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Yashit Maheshwary</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link rel="stylesheet" type="text/css" href="styles/animate.css">
-	<link rel="stylesheet" type="text/css" href="styles/buttonanimations.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Indie+Flower|Rock+Salt|Trirong|Quattrocento+Sans|Slabo+27px|Merriweather:900|Open+Sans:500" rel="stylesheet">
-	<link rel="icon" href="img/tablogo.png">
-	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Exo:700" rel="stylesheet">	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script type="text/javascript" src="js/navbarscroll.js"></script>
-	<script type="text/javascript" src="js/scrolldivs.js"></script>
-	<script type="text/javascript" src="js/highlightnavlink.js"></script>
-	<script type="text/javascript" src="js/tooltip.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-</head>
-<body oncontextmenu="return false;">
-	<nav role="navigation" class="navbar navbar-default navbar-fixed-top navbar-color">
-	    <div class="navbar-header">
-	        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	        </button>
-	        <a href="#" class="navbar-brand nav-header-style"><span class="nav-span-style">Yashit Maheshwary</span></a>
-	    </div>
-	    <div id="navbarCollapse" class="collapse navbar-collapse">
-	        <ul class="nav navbar-nav navbar-right">
-	            <li><a id="HomeButton" class="nav-header-style" href="#"><span class="nav-span-style">Home</span></a></li>
-	            <li><a id="AboutButton" class="nav-header-style" href="#"><span class="nav-span-style">About</span></a></li>
-	            <li><a id="ProjectsButton" class="nav-header-style" href="#"><span class="nav-span-style">Projects</span></a></li>
-	        	<li><a id="ContactButton" class="nav-header-style" href="#"><span class="nav-span-style">Contact</span></a></li>
-	        </ul>
-	    </div>
-	</nav>
-	<div class="img-section fadeIn animated one" id="firstdiv">
-		<div class="inside-text fadeIn animated">
-			<span class="inside-text-1">YASHIT MAHESHWARY</span><br>
-			<div class="description">
-				Student | Programmer 
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Yashit Maheshwary</title>
+		<meta name="author" content="YashitM">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/brand-icons.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<link rel="stylesheet" href="static/css/hover-min.css" />
+		<link rel="stylesheet" href="css/templatemo-style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/custom.js"></script>
+	</head>
+	<body id="top">
+
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+
+		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">YashitM</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#top">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#achievements">ACHIEVEMENTS</a></li>
+						<li><a href="#projects">PROJECTS</a></li>
+					</ul>
+				</div>
 			</div>
-			<div>
-				<a class="hvr-wobble-vertical social-icons" id="facebook-icon" href="https://www.facebook.com/yashit.maheshwary" target="_blank"> <i title="Facebook" class="fa fa-facebook"></i></a>
-				<a class="hvr-wobble-vertical social-icons" id="quora-icon" href="https://www.quora.com/profile/Yashit-Maheshwary" target="_blank"><i title="Quora" class="fa fa-quora"></i></a>
-				<a class="hvr-wobble-vertical social-icons" id="linkedin-icon" href="https://www.linkedin.com/in/yashit-maheshwary-aa8078b2" target="_blank"><i title="LinkedIn" class="fa fa-linkedin"></i></a>
-				<a class="hvr-wobble-vertical social-icons" id="github-icon" href="https://github.com/YashitM" target="_blank"><i title="GitHub" class="fa fa-github"></i></a>
-				<a class="hvr-wobble-vertical social-icons" id="telegram-icon" href="https://web.telegram.org/#/im?p=@YashitM" target="_blank"><i title="Telegram" class="fa fa-telegram" aria-hidden="true"></i></a>
-				<a title="Blog" class="hvr-wobble-vertical social-icons" id="blog-icon" href="http://overthewirenatas.blogspot.ae/" target="_blank"><i class="fa fa-book" aria-hidden="true"></i></a>
-			</div>
-			<button class="anim non-project-button" id="LearnMoreButton">&nbsp;</button>
-		</div>
-	</div>	
-	<div class="text-section-enclosure-60-1" id="AboutSection">
-		<div class="text-section-60">
-			<div class="container-fluid">
+		</nav>
+		
+    	<section id="home">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Hey, this is <span>Yashit Maheshwary</span></h1>
+    					<div class="element">
+                            <div class="sub-element">Full Stack Web Developer</div>
+                            <div class="sub-element">Android App Developer</div>
+                            <div class="sub-element">Computer Security Enthusiast</div>
+                            <div class="sub-element">Freelancer</div>
+                            <div class="sub-element">Foodie</div>
+						</div>
+						<div class="social-icon-container">
+							<center>
+								<a title="Facebook" class="social-icons" href="https://www.facebook.com/yashit.maheshwary" target="_blank">
+									<svg width="50" height="50" fill="#3b5998" aria-labelledby="simpleicons-facebook-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<title id="simpleicons-facebook-icon">Facebook icon</title>
+										<path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"
+										/>
+									</svg>
+								</a>
+								<a title="Quora" class="social-icons" id="quora-icon" href="https://www.quora.com/profile/Yashit-Maheshwary" target="_blank">
+									<svg width="50" height="50" fill="#b92b27" aria-labelledby="simpleicons-quora-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<title id="simpleicons-quora-icon">Quora icon</title>
+										<path d="M12.738 18.701c-.831-1.635-1.805-3.287-3.708-3.287-.362 0-.727.061-1.059.209l-.646-1.289c.786-.678 2.058-1.214 3.693-1.214 2.544 0 3.851 1.229 4.888 2.792.613-1.335.904-3.14.904-5.375 0-5.582-1.744-8.447-5.822-8.447-4.018 0-5.757 2.865-5.757 8.447 0 5.553 1.739 8.389 5.757 8.389.64 0 1.22-.069 1.75-.225zm.996 1.947c-.881.237-1.817.366-2.743.366-5.352 0-10.59-4.269-10.59-10.478C.402 4.271 5.639 0 10.991 0c5.441 0 10.628 4.238 10.628 10.537 0 3.504-1.635 6.351-4.01 8.191.764 1.148 1.543 1.914 2.652 1.914 1.199 0 1.68-.915 1.77-1.649h1.557c.092.974-.402 5.007-4.766 5.007-2.652 0-4.047-1.528-5.096-3.328l.008-.024z"
+										/>
+									</svg>
+								</a>
+								<a title="LinkedIn" class="social-icons" id="linkedin-icon" href="https://www.linkedin.com/in/yashit-maheshwary-aa8078b2"
+								target="_blank">
+									<svg width="50" height="50" fill="#0077b5" aria-labelledby="simpleicons-linkedin-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<title id="simpleicons-linkedin-icon">LinkedIn icon</title>
+										<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+										/>
+									</svg>
+								</a>
+								<a title="Github" class="social-icons" id="github-icon" href="https://github.com/YashitM" target="_blank">
+									<svg width="50" height="50" fill="#181717" aria-labelledby="simpleicons-github-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<title id="simpleicons-github-icon">GitHub icon</title>
+										<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+										/>
+									</svg>
+								</a>
+								<a title="Telegram" class="social-icons" id="telegram-icon" href="https://web.telegram.org/#/im?p=@YashitM" target="_blank">
+									<svg width="50" height="50" fill="#2ca5e0" aria-labelledby="simpleicons-telegram-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+										<title id="simpleicons-telegram-icon">Telegram icon</title>
+										<path d="M9.028 20.837c-.714 0-.593-.271-.839-.949l-2.103-6.92L22.263 3.37" />
+										<path d="M9.028 20.837c.552 0 .795-.252 1.105-.553l2.941-2.857-3.671-2.214" />
+										<path d="M9.403 15.213l8.89 6.568c1.015.56 1.748.271 2-.942l3.62-17.053c.372-1.487-.564-2.159-1.534-1.72L1.125 10.263c-1.45.582-1.443 1.392-.264 1.753l5.455 1.7L18.94 5.753c.595-.36 1.143-.167.694.232"
+										/>
+									</svg>
+								</a>
+								<!-- <a title="Blog" class="social-icons" id="blog-icon" href="http://overthewirenatas.blogspot.ae/" target="_blank"><i class="fa fa-book" aria-hidden="true"></i></a> -->
+								<a title="Medium" class="social-icons" id="blog-icon" href="https://medium.com/@yashitmaheshwary" target="_blank">
+									<svg width="50" height="50" fill="#1c1b1a" aria-labelledby="simpleicons-medium-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<title id="simpleicons-medium-icon">Medium icon</title>
+										<path d="M2.846 6.36c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403H7.26l5.378 11.795 4.728-11.795H24v.403l-1.917 1.837c-.165.126-.247.333-.213.538v13.5c-.034.204.048.41.213.537l1.87 1.837v.403h-9.41v-.403l1.937-1.882c.19-.19.19-.246.19-.538V7.794l-5.39 13.688h-.727L4.278 7.794v9.174c-.052.386.076.774.347 1.053l2.52 3.06v.402H0v-.403l2.52-3.06c.27-.278.39-.67.326-1.052V6.36z"
+										/>
+									</svg>
+								</a>
+							</center>
+						</div>
+						<a data-scroll href="#about" class="btn btn-default wow fadeInUp center-block" data-wow-offset="50" data-wow-delay="0.6s">About Me</a>
+    				</div>
+    			</div>
+    		</div>
+		</section>
+		
+		<section id="about">
+			<div class="container">
 				<div class="row">
-					<div class="col-lg-3">
-						<div class="margin-for-columns"><img class="img-circle img-responsive about-image" src="img/cropped.jpg"></div>
+					<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>ABOUT</span> Me</h2>
+    				</div>
+					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+						<div class="media">
+							Hey! I am Yashit Maheshwary, a second year Computer Science Engineering student at IIIT, Delhi. I am a passionate Full Stack Web Developer, an Android App Developer and a Computer Security Enthusiast!
+							<br>
+							<br>
+							I currently work as a Full Stack Web Developer at MoyoSolutions.
+							<br>
+							<br>
+							Check my 
+							<a href="https://www.youtube.com/channel/UC5A8roRFNDmhw4jNKiQqWnQ" target="_blank">
+								<svg width="30" height="20" fill="#ff0000" aria-labelledby="simpleicons-youtube-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									<title id="simpleicons-youtube-icon">YouTube icon</title>
+									<path class="a" d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"
+									/>
+								</svg>
+							</a> out for some Programming Tutorials!
+						</div>
 					</div>
-					<!--remove the image when the browser width is less than 1200px-->
-					<div class="col-lg-9 section-content">
-						<div class="margin-for-columns">
-							Hi, I am Yashit Maheshwary, a first year CSE student at IIIT, Delhi. I am passionate about Web App Development. I have a professional working proficiency in HTML, CSS, Python, MYSQL, C++ and Embedded C. I also have an elementary proficiency in PHP, Javascript and Java. 
+					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-offset="50" data-wow-delay="0.9s">
+						<div class="media">
+							<span class="language-icons">
+								<span class="language-icon-size">
+									<i class="devicon-python-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-django-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-java-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-android-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-cplusplus-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-linux-plain"></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-javascript-plain colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-react-original-wordmark colored"></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-nodejs-plain-wordmark colored"></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-php-plain colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-mysql-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-mongodb-plain-wordmark colored"></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-html5-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-css3-plain-wordmark colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-bootstrap-plain-wordmark coloreddevicon-c-plain colored "></i>
+								</span>
+							
+								<span class="language-icon-size">
+									<i class="devicon-git-plain-wordmark colored "></i>
+								</span>
+							
+							</span>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="img-section-2 two" id="ProjectsSection">
-		<span class="over-the-image-text">Some of my Projects</span>
-	</div>	
-	<div class="text-section-enclosure-80-1">
-		<div class="text-section-80">
-			<div class="container-fluid">
-				<div class="row offset">
-					<div class="col-lg-6">
-						<button type="button" class="speech-recognition left project-button" data-toggle="modal" data-target="#myModal">&nbsp;</button>
-					</div>
-					<div class="col-lg-6">
-						<button type="button"  class="pollution-sensor left project-button" data-toggle="modal" data-target="#myModal3">&nbsp;</button>
-					</div>
-				</div>
-				<div class="row offset">
-					<div class="col-lg-6">
-						<button type="button" class="tictactoe left project-button" data-toggle="modal" data-target="#myModal4">&nbsp;</button>
-					</div>
-					<div class="col-lg-6">
-						<button type="button" class="jee-spot left project-button" data-toggle="modal" data-target="#myModal1">&nbsp;</button>
-					</div>
-				</div>
-				<div class="row offset">
-					<div class="col-lg-6">
-						<button type="button" class="snake left project-button" data-toggle="modal" data-target="#myModal2">&nbsp;</button>
-					</div>
-					<div class="col-lg-6">
-						<button type="button" class="lbms left project-button" data-toggle="modal" data-target="#myModal5">&nbsp;</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+		</section>
 
-	<!-- container for the project modals-->
-
-    <div class="container-fluid">
-    	<div class="modal fade" id="myModal" role="dialog">
-		    <div class="modal-dialog">
-		      	<!-- Modal content-->
-		      	<div class="modal-content">
-		        	<div class="modal-header">
-		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
-		          		<h4 class="modal-title">Speech Recognition using Arduino</h4>
-		        	</div>
-		        	<div class="modal-body">
-		          		<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">Equipment used:</span> Arduino UNO R3, HC-05 Bluetooth Module, an Android Phone with AMR-Voice App installed, LCD Display, Jumper Cables etc.
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Language(s) used:</span> Embedded C
-		          		</p>
-		          		<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">About:</span> This device displays the answer to various mathematical expressions the user says. The user gives the voice input to the Android App (AMR-Voice) and then this app forwards the data to the Bluetooth Module attached to the arduino. The Arduino then processes the data and then displays the final output onto the LCD Display attached to it. As of now, it does basic mathematical calculations, let's us know the surrounding temperature and also acts as a switch for various LEDs. 
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/Arduino-Speech-Recog" target="_blank"> Github Repository</a>
-		          		</p>
-		        	</div>
-		        	<div class="modal-footer">
-		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
-		        	</div>
-		      	</div>
-  			</div>
-		</div>
-		<div class="modal fade" id="myModal1" role="dialog">
-		    <div class="modal-dialog">
-		      	<!-- Modal content-->
-		      	<div class="modal-content">
-		        	<div class="modal-header">
-		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
-		          		<h4 class="modal-title">JEE-Spot (Interactive online Study Website)</h4>
-		        	</div>
-		        	<div class="modal-body">
-		          		<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">Language(s) used:</span> HTML, CSS and a little bit of PHP
-		          		</p>
-		          		<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">About:</span> JEE-Spot is an online tutoring site with resources for exams like IIT-JEE (Mains and Advanced), BITSAT, CBSE 12<sup>th</sup> Board Exams and SAT Subject Tests. This website provides the user with Previous Years' Question Papers and Revision Notes for various topics that are needed to be covered for Entrance Examinations. 
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/JEE-Spot" target="_blank"> Github Repository</a>, <a class="modal-links" href="https://yashitm.github.io/JEE-Spot/" target="_blank"> Website Link</a>
-		          		</p>
-		        	</div>
-		        	<div class="modal-footer">
-		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
-		        	</div>
-		      	</div>
-  			</div>
-		</div>
-		<div class="modal fade" id="myModal2" role="dialog">
-		    <div class="modal-dialog">
-		      	<!-- Modal content-->
-		      	<div class="modal-content">
-		        	<div class="modal-header">
-		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
-		          		<h4 class="modal-title">The Retro Snake Game</h4>
-		        	</div>
-		        	<div class="modal-body">
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Language(s) used:</span> C++
-		          		</p>
-						<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">About:</span> This is a very basic B&amp;W Snake Game. The snake can be moved using the W, A, S and D keys. It's size increases whenever the head comes in contact with a fruit that is randomly placed in the frame. It has 3 levels of difficulty (that vary according to the speed of movement of the snake).
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/Snake-Game" target="_blank"> Github Repository</a>
-		          		</p>	
-		        	</div>
-		        	<div class="modal-footer">
-		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
-		        	</div>
-		      	</div>
-  			</div>
-		</div>
-		<div class="modal fade" id="myModal3" role="dialog">
-		    <div class="modal-dialog">
-		      	<!-- Modal content-->
-		      	<div class="modal-content">
-		        	<div class="modal-header">
-		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
-		          		<h4 class="modal-title">Pollution Sensing using Arduino</h4>
-		        	</div>
-		        	<div class="modal-body">
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Equipment used:</span> Arduino UNO R3, MQ-135 Gas Sensor, Sharp Dust Sensor, RGB-LED, Jumper Cables etc.
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Language(s) used:</span> Embedded C
-		          		</p>
-		          		<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">About:</span> This device measures the amount of Gas (Carbon Monoxide) and Dust in the surroundings and visualizes data (with the help of the RGB-LED) with respected to the Government set Pollution Standards. 
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/Arduino_Pollution_Sensor" target="_blank"> Github Repository</a>
-		          		</p>	
-		        	</div>
-		        	<div class="modal-footer">
-		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
-		        	</div>
-		      	</div>
-  			</div>
-		</div>
-		<div class="modal fade" id="myModal4" role="dialog">
-		    <div class="modal-dialog">
-		      	<!-- Modal content-->
-		      	<div class="modal-content">
-		        	<div class="modal-header">
-		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
-		          		<h4 class="modal-title">Tic Tac Toe</h4>
-		        	</div>
-		        	<div class="modal-body">
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Language(s) used:</span> Python
-		          		</p>
-		          		<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">About:</span> This is a normal Tic Tac Toe game that has almost 90% chances of beating (or drawing with) a human player. It runs on basic if-else conditions that evaluate the best move. Soon, I will be replacing the if-else conditions with the MiniMax Algorithm for 0% chances of losing against a human player. 
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/TicTacToe" target="_blank"> Github Repository</a>
-		          		</p>
-		        	</div>	
-		        	<div class="modal-footer">
-		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
-		        	</div>
-		      	</div>
-  			</div>
-		</div>
-		<div class="modal fade" id="myModal5" role="dialog">
-		    <div class="modal-dialog">
-		      	<!-- Modal content-->
-		      	<div class="modal-content">
-		        	<div class="modal-header">
-		          		<button type="button" class="close close-color" data-dismiss="modal">&times;</button>
-		          		<h4 class="modal-title">Library Management System</h4>
-		        	</div>
-		        	<div class="modal-body">
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Languages used:</span> C++
-		          		</p>
-		          		<p class="modal-body-text" align="justify">
-		          			<span class="modal-text-heading">About:</span> A handy and interactive Library Management System with features of storing, adding and deleting various users. Along with users, new books can be added, lost books can be deleted and books can be borrowed by any of the users (depending on the availability of books). The borrowed book, if not returned within a specified period of time, will result in a fine (depending on the number of days by which the user is late to return the book by) that the user will have to pay.
-		          		</p>
-		          		<p class="modal-body-text">
-		          			<span class="modal-text-heading">Useful Links:</span><a class="modal-links" href="https://github.com/YashitM/LBMS" target="_blank"> Github Repository</a>
-		          		</p>
-		        	</div>
-		        	<div class="modal-footer">
-		          		<button type="button" class="btn btn-default btn-color" data-dismiss="modal">Close</button>
-		        	</div>
-		      	</div>
-  			</div>
-		</div>
-    </div>
-
-	<div class="img-section-2 three" id="ContactSection">
-		<span class="over-the-image-text">Contact Details</span>
-	</div>	
-	<div class="text-section-enclosure-70-2">
-		<div class="text-section-70 contact-text">
-			<div class="container-fluid">
-				<div class="row">	
-					<div class="col-lg-12 center-text">
-						<span class="contact-icons-enveloper"><i class="fa fa-envelope contact-icons" aria-hidden="true"></i></span>&nbsp;&nbsp;<a class="email-links" href="mailto:yashit16123@iiitd.ac.in?Subject=Hey%20There!" target="_top">yashit16123@iiitd.ac.in</a> / <a class="email-links" href="mailto:yashitmaheshwary@gmail.com?Subject=Hey%20There!" target="_top">yashitmaheshwary@gmail.com</a>
-					</div>
+    	<section id="achievements">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>ACHIEVEMENTS</span></h2>
+    				</div>
+					<div class="timeline">
+						<div class="entry">
+							<div class="title">
+								<h3>2014 - Present</h3>
+								<p>Title, Company</p>
+							</div>
+							<div class="body">
+								<p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+								<ul>
+									<li>Rerum sit libero possimus amet excepturi</li>
+									<li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+									<li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+								</ul>
+							</div>
+						</div>
+						<div class="entry">
+							<div class="title">
+								<h3>2010 - Present</h3>
+								<p>Title, Company</p>
+							</div>
+							<div class="body">
+								<p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+								<ul>
+									<li>Rerum sit libero possimus amet excepturi</li>
+									<li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+									<li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+								</ul>
+							</div>
+						</div>
+						<div class="entry">
+							<div class="title">
+								<h3>2009 - 2010</h3>
+								<p>Title, Company</p>
+							</div>
+							<div class="body">
+								<p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+								<ul>
+									<li>Rerum sit libero possimus amet excepturi</li>
+									<li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+									<li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+								</ul>
+							</div>
+						</div>
+						<div class="entry">
+							<div class="title">
+								<h3>2006 - 2008</h3>
+								<p>Title, Company</p>
+							</div>
+							<div class="body">
+								<p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+								<ul>
+									<li>Rerum sit libero possimus amet excepturi</li>
+									<li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+									<li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+								</ul>
+							</div>
+						</div>
 					
-				</div>
-				<div class="row">
-					<div class="col-lg-12 center-text">
-						<span class="contact-icons-enveloper"><i class="fa fa-mobile contact-icons" aria-hidden="true"></i></span> +91 96509 54383 / +971 50 756 3044
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 center-text">
-						<span class="contact-icons-enveloper"><i class="fa fa-address-card contact-icons" aria-hidden="true"></i></span> Boys Hostel, I.I.I.T. Delhi, Okhla Phase III, Delhi, India.
+    			</div>
+    		</div>
+		</section>
+		
+    	<section id="projects">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">My <span>PROJECTS</span></h2>
+    				</div>
+    				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+    					<!-- <i class="fa fa-laptop"></i> -->
+						<h4>Shell</h4>
+						<p>
+							A Shell written completely in C
+						</p>
+    				</div>
+    				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
+    					<!-- <i class="fa fa-cloud"></i> -->
+						<h4>Homie Bot</h4>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sed eum maxime consequuntur deserunt, doloremque magni praesentium, assumenda reiciendis id, corporis veniam. Porro doloremque laboriosam similique aliquam quasi quidem dolores.</p>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 center-text">
-						To connect with me via Social Media, you can ping me on any of the links given in the <a class="resume-link" href="#" id="HomeButton2">home</a> page. And to view my resume, click <a class="resume-link" href="https://drive.google.com/open?id=0B_f1B3U_naZgUTU1RkxCSTVKMW8" target="_blank">here</a>.
+    				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+    					<!-- <i class="fa fa-cog"></i> -->
+    					<h4>Social Network</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error placeat exercitationem, eum ipsa dicta neque, quidem repudiandae omnis architecto iusto ducimus explicabo ut eligendi ullam quaerat. Aspernatur ducimus optio ut!</p>	
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    			</div>
+    		</div>
+		</section>
+		
+    	<!-- <section id="portfolio">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> PORTFOLIO</h2>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+    					   <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+                                <div class="portfolio-overlay">
+                                    <h4>Project One</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Two</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Three</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Four</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Five</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Six</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Seven</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Eight</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+    			</div>
+    		</div>
+		</section> -->
+		
+    	<!-- <section id="contact">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>AWESOME</span></h2>
+    				</div>
+    				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
+    					<form action="#" method="post">
+    						<label>NAME</label>
+    						<input name="fullname" type="text" class="form-control" id="fullname">
+   						  	
+                            <label>EMAIL</label>
+    						<input name="email" type="email" class="form-control" id="email">
+   						  	
+                            <label>MESSAGE</label>
+    						<textarea name="message" rows="4" class="form-control" id="message"></textarea>
+    						
+                            <input type="submit" class="form-control">
+    					</form>
+    				</div>
+    				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
+    					<address>
+    						<p class="address-title">OUR ADDRESS</p>
+    						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</span>
+    						<p><i class="fa fa-phone"></i> 010-020-0340</p>
+    						<p><i class="fa fa-envelope-o"></i> awesome@company.com</p>
+    						<p><i class="fa fa-map-marker"></i> 663 New Walk Roadside, Birdeye View, GO 11020</p>
+    					</address>
+    					<ul class="social-icon">
+    						<li><h4>WE ARE SOCIAL</h4></li>
+    						<li><a href="#" class="fa fa-facebook"></a></li>
+    						<li><a href="#" class="fa fa-twitter"></a></li>
+    						<li><a href="#" class="fa fa-instagram"></a></li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+		</section> -->
+		
+        <footer id="foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                       	Yashit Maheshwary</p>
+                    </div>
+                </div>
+            </div>
+		</footer>
 
-    <footer class="footer">
-		<div class="footer-text">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6 footer-name">
-						&copy; Yashit Maheshwary
-					</div>
-					<div class="col-lg-6 footer-extra-shit">
-						Made with  <i class="fa fa-heart footer-icon hvr-bounce-in" aria-hidden="true"></i>  in India
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-</body>
-</html>					
+	</body>
+</html>
