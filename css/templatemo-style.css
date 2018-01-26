@@ -200,13 +200,16 @@ header .social-icon li a
 		padding: 14px 0px 0px 12px;
 		color: #ffffff;
 	}
-.navbar-default .navbar-nav li a
-	{
-		font-weight: bold;
-		font-size: 13px;
-		height: 70px;
-		line-height: 40px;
-	}
+.navbar-default .navbar-nav li a {
+	font-weight: bold;
+	font-size: 13px;
+	height: 70px;
+	line-height: 40px;
+	transition: all 0.3s ease-in-out;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #ffffff;
+}
 
 .navbar-default .navbar-nav > li > a.current { 
 	color: #28A7E9; 
