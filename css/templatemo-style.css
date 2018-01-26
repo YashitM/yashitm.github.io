@@ -230,6 +230,7 @@ header .social-icon li a
 #home
 	{
 		background: url('../images/home-bg.jpg') no-repeat;
+		/* background: #404040; */
 		background-size: cover;
 		padding-top: 180px;
 		padding-bottom: 100px;
@@ -399,39 +400,21 @@ header .social-icon li a
 	background: #111;
 }
 
-#projects .col-md-4
-	{
-		padding: 40px;
-		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
-	}
-#projects .col-md-4:hover
-	{
-		background: #505050;
-	}
-#projects .active
-	{
-		background: #505050;
-		padding: 40px;
-	}
-#projects .fa
-	{
-		border: 1px solid #fff;
-		border-radius: 2px;
-		color: #fff;
-		font-size: 50px;
-		width: 100px;
-		height: 100px;
-		line-height: 100px;
-		text-align: center;
-	}
-#projects h4
-	{
-		color: #28a7e9;
-		font-weight: 600;
-		padding-top: 10px;
-		padding-bottom: 14px;
-	}
+#projects .col-md-4 {
+	padding: 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+}
+#projects .col-md-4:hover {
+	background: #505050;
+	
+}
+#projects h4 {
+	color: #28a7e9;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 14px;
+}
 /* end projects */
 
 /* start footer */
