@@ -1,5 +1,5 @@
 $(function(){
-    $(".templatemo-nav").hide();
+    $(".custom-nav").hide();
     var subElementArray = $.map($('.sub-element'), function(el) { return $(el).text(); });    
     $(".element").typed({
         strings: subElementArray,
@@ -10,8 +10,8 @@ $(function(){
         loopCount: true,
     });
     
-    $('.templatemo-nav').singlePageNav({
-        offset: $(".templatemo-nav").height(),
+    $('.custom-nav').singlePageNav({
+        offset: $(".custom-nav").height(),
         filter: ':not(.external)',
         updateHash: false
     });
@@ -20,12 +20,12 @@ $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 0){
             console.log($(this).scrollTop());
-            $(".templatemo-nav").fadeIn(500);                        
-            $(".templatemo-nav").addClass("sticky");
+            $(".custom-nav").fadeIn(500);                        
+            $(".custom-nav").addClass("sticky");
 
         }
         else{
-            $(".templatemo-nav").fadeOut(500);
+            $(".custom-nav").fadeOut(500);
         }
     });
     
