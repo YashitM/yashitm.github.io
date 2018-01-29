@@ -7,11 +7,28 @@ body{
 }
 	
 a {
+	position: relative;
 	color: #47C6F8;
+	transition: all 0.3s ease-in-out;
 }
 	
 a:hover {
 	color: #0FF;
+	text-decoration: none;
+}
+
+a:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	border-bottom: 3px solid #3366FF;
+	transition: 0.4s;
+}
+
+a:hover:after {
+	width: 100%;
 }
 
 h2
@@ -159,7 +176,8 @@ header .social-icon li a
 }
 
 .social-icons {
-	padding-left: 16px;
+	padding-left: 8px;
+	padding-right: 8px;
 	padding-bottom: 15px;
 }
 
@@ -397,6 +415,17 @@ header .social-icon li a
 	background: #505050;
 	
 }
+#projects a {
+	color: #28a7e9;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 14px;
+}
+
+#projects a:hover {
+	color: #0FF;
+}
+
 #projects h4 {
 	color: #28a7e9;
 	font-weight: 600;
@@ -408,7 +437,7 @@ header .social-icon li a
 /* start footer */
 #foot {
 	padding: 20px;
-	background: #303030;
+	background: #111;
 }
 #foot p{
 	font-weight: 400;
