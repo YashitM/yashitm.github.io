@@ -24,7 +24,7 @@
 	</head>
 	<body id="top">
 
-		<div class="preloader">
+		<!--<div class="preloader">
 			<div class="sk-spinner sk-spinner-wave">
      	 		<div class="sk-rect1"></div>
        			<div class="sk-rect2"></div>
@@ -32,8 +32,8 @@
       	 		<div class="sk-rect4"></div>
       			<div class="sk-rect5"></div>
      		</div>
-    	</div>
-
+		</div>-->
+		
 		<nav class="navbar navbar-default custom-nav" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -46,14 +46,44 @@
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#top">HOME</a></li>
-						<li><a href="#about">ABOUT</a></li>
-						<li><a href="#achievements">ACHIEVEMENTS</a></li>
-						<li><a href="#projects">PROJECTS</a></li>
+						<li>
+							<a href="#top">HOME</a>
+						</li>
+						<li>
+							<a href="#about">ABOUT</a>
+						</li>
+						<li>
+							<a href="#achievements">ACHIEVEMENTS</a>
+						</li>
+						<li>
+							<a href="#projects">PROJECTS</a>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
+
+		<canvas class="canvas scrolll" id="canvashomescreen" style="background: black; max-width: 100%;">
+		</canvas>
+		<div class="help"></div>
+		<div class="ui" style="visibility: hidden;">
+			<input class="ui-input" type="text" style="visibility: hidden;" />
+			<span class="ui-return"></span>
+		</div>
+		<div class="overlay" style="visibility: hidden;">
+			<div class="tabs">
+				<div class="tabs-labels">
+					<span class="tabs-label"></span>
+					<span class="tabs-label"></span>
+					<span class="tabs-label"></span>
+				</div>
+				<div class="tabs-panels">
+					<ul class="tabs-panel commands">
+					</ul>
+				</div>
+			</div>
+		</div>
+		
 		
     	<section id="home">
     		<div class="container">
@@ -439,5 +469,7 @@
             </div>
 		</footer>
 
+		<script src="js/text.js"></script>
+		
 	</body>
 </html>

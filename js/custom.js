@@ -19,7 +19,6 @@ $(function(){
     /* start navigation top js */
     $(window).scroll(function(){
         if($(this).scrollTop() > 0){
-            console.log($(this).scrollTop());
             $(".custom-nav").fadeIn(500);                        
             $(".custom-nav").addClass("sticky");
 
