@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/yashitm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yashitm.tech
+  * I am yashitm (https://keybase.io/yashitm) on keybase.
+  * I have a public key with fingerprint 565B 53D0 89F1 C4EC 219B  9BE9 D4C4 EFBB 16D6 671B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101884fa506d43e17da0a35e723147579c27f39629b06edaae8e5c488cfd3f8d1370a",
+      "fingerprint": "565b53d089f1c4ec219b9be9d4c4efbb16d6671b",
+      "host": "keybase.io",
+      "key_id": "d4c4efbb16d6671b",
+      "kid": "0101884fa506d43e17da0a35e723147579c27f39629b06edaae8e5c488cfd3f8d1370a",
+      "uid": "76b0bbbf2203898c133473defa67aa19",
+      "username": "yashitm"
+    },
+    "service": {
+      "hostname": "yashitm.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1531331306,
+  "expire_in": 157680000,
+  "prev": "13ea8dcb6ce95dd08c049aa3ce758872310747e58425a88ecb92dbd46f47c67e",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMIzAnicrVJraFRHFN5tNq7Z1KJCWowNMbd/Kl105r5m7iJiEghEENQEW1vpdh7n
+bm6T7K67d9PEGDChoSmU+oxQoWJ9QY0g2DaWNL6iMUZFNDZFa2mroFhbBEWxpYR2
+brA/Cv3Z+TOcM9/3ne+cOWdnFYViYdLQ3ltaAT+HL57eWQi9VVdzv1PjGdmhJTq1
+Zpi+oEVC3k82e1JLaAgjTKnpMgvZ0jQAE8kQMywguoFNYhFH6MQ1HFt3OLJBMgYU
+LGFSKlxpuFRigyCmxTXXS6cgl815aV/JWrbFLUMi6rhYmCB07HCHgyNNFbmcY1va
+NsFcEZsy+YChzHGWh0VeRuVUkJy29x/4/9l3YVqO2Bxxzl1dRwZ1qMCGYRJDgsts
+whh2AmAecmnWCgrdwfJNnt+qdcU1lWzzBARzDRr5N2CRD6JJUbO5jJ8RmRb10uT7
+2XwiYPod2QD6HvDkM5Ek99JSjVEx2iCX9zJpLYEVUvheoIotQ9nCBrLjGrRnvRwk
+vQBhEZsidYI60KYksQGMSsFtAY4l1ScIZDqMGQKIRWkwIERMAhY1dYtRCoI7uuTS
+tF2TCJuAFrS1Pp3REqayyVJKMu+l0swv5EDrGjm1LhIKx0Izip8L1isUK5n9z9Id
+PRmdKvvhcklj/PG2otJVqx8NUaeh6I/vnj6dswO/Uf7m64vFl7+MH6sNL9w7aI8P
+lvKBU7cfzD0f3dvXGJ/5VfHN3WhyxB/aFTvz2/H65Z9/UF65eaiqes6WG8Orinuq
+bs/7JjJzarSqunZB7deRSx++u/L7Qnc28bzeOwBbB36/cm0tqoBdE/tfJn9FP+1/
+ITm2pmrfg9KjPcv6e388ECtenpq8e+7KyZcKS0ePP/6i8v1XL937+Kfuvu3NE4fR
+25v2jFxeGl09eLMi/etHdbsjGz77ZEn9BbLi0MHh6J7FJw6zGdc3vvNK2fxH6MXc
+jScHaq7fnzoSCmdPPDyEI0++vbPzIVx9LbVkbE3LrT//BrAFPqY=
+=mfm7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yashitm
+
+==================================================================
